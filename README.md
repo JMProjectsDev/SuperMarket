@@ -1,4 +1,4 @@
-# SuperMarket!
+# SuperMarket! (Prototipo en desarrollo)
 
 ![c1](https://github.com/JMProyects/SuperMarket/assets/91617930/48bc6eaa-c9e2-4472-a186-523b44669f12)
 
