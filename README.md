@@ -1,5 +1,8 @@
 # SuperMarket!
 
+![c1](https://github.com/JMProyects/SuperMarket/assets/91617930/48bc6eaa-c9e2-4472-a186-523b44669f12)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
 
 ## Development server
