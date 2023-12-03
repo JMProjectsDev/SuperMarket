@@ -1,16 +1,21 @@
 <header
-  class="grid grid-cols-[50px_300px_1fr_200px_150px] text-center p-4 bg-yellow-100 items-center"
+  class="grid grid-cols-[50px_300px_1fr_200px_100px_150px] text-center p-4 bg-yellow-100 items-center"
 >
-  <button>X</button>
-  <h1 class="font-bold text-xl">SuperMarket!</h1>
+  <button class="bg-yellow-400 rounded-full p-2 border border-black">X</button>
+  <h1 class="font-bold text-xl cursor-pointer" routerLink="">SuperMarket!</h1>
   <input
     placeholder="¿Qué producto desea buscar?"
     class="text-center border-2 border-black rounded-3xl"
   />
   <div>
-    <a>Tiendas </a>
+    <a routerLink="/tiendas">Tiendas </a>
     |
-    <a> Folletos</a>
+    <a routerLink="/folletos"> Folletos</a>
   </div>
+  <div class="flex flex-row place-content-center items-center">
+    <img src="../../../assets/img/cart.png" alt="Image for cart products" class="w-11 cursor-pointer">
+    <p class="absolute ml-10 mt-4 px-1 text-xs font-bold bg-yellow-300 border border-black rounded-full">0</p>
+  </div>
+
   <p class="font-bold bg-orange-300 rounded-md py-2">Área clientes</p>
 </header>

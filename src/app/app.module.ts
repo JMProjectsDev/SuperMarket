@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
+import { TiendasComponent } from './components/tiendas/tiendas.component';
+import { FolletosComponent } from './components/folletos/folletos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SideMenuComponent } from './components/side-menu/side-menu.component';
     HeaderComponent,
     LandingPageComponent,
     FooterComponent,
-    SideMenuComponent
+    SideMenuComponent,
+    TiendasComponent,
+    FolletosComponent
   ],
   imports: [
     BrowserModule,
